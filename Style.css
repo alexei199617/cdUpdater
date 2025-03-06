@@ -1,0 +1,285 @@
+html {
+  background-color: #373740;
+  font-family: sans-serif;
+}
+body {
+  width: 1600px;
+  margin: 0 auto;
+}
+.dFlex {
+  display: flex;
+}
+.dNone {
+  display: none;
+}
+
+
+.header {
+  margin: 50px auto;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+.navbar {
+  width: 600px;
+  justify-content: space-around;
+}
+.navBtn {
+  padding-top: 13px;
+  padding-bottom: 15px;
+  width: 150px;
+  background-color: #000;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+.navBtn:hover {
+  cursor: pointer;
+  background-color: #002;
+  /* color: #fb2; */
+  /* box-shadow: #722 0 0 25px, #662828 inset 0 0 15px; */
+  box-shadow: #fff 0 0 10px, #fff inset 0 0 3px;
+}
+.user {
+  padding: 13px 20px 15px;
+  background-color: #000;
+  color: #999;
+  border-radius: 20px;
+}
+.user:hover {
+  cursor: no-drop;
+}
+
+.content {
+  margin: 50px auto;
+  min-height: 600px;
+  /* background-color: #000; */
+  overflow: hidden;
+}
+.char {
+  margin: 0 auto;
+  width: 1560px;
+  /* background-color: #44f; */
+  flex-wrap: wrap;
+}
+.card {
+  margin: 20px;
+  /* background-color: #8f8; */
+  width: 220px;
+  height: 300px;
+  border-radius: 30px;
+  text-align: center;
+  align-content: center;
+  box-shadow: #000 0 0 25px, #000 inset 0 0 15px;
+  transition: 0.2s;
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: #fff 0 0 10px, #000 inset 0 0 15px;
+}
+.cardAdd {
+  color: #fff5;
+  box-shadow: #fff 0 0 5px, #fff inset 0 0 5px;
+
+}
+.cardAddImg {
+  transition: 0.5s;
+  margin: 80px auto 20px;
+  width: 100px;
+  height: 100px;
+  background: no-repeat center / contain url('img/plus.svg');
+}
+.cardAddText {
+  font-size: 20px;
+
+}
+.cardAdd:hover {
+  box-shadow: #fff 0 0 15px, #fff inset 0 0 2px;
+  color: #fff9;
+}
+.cardAdd:hover .cardAddImg {
+  background: no-repeat center / contain url('img/plusActive.svg');
+}
+.cardImg {
+  margin: 40px auto;
+  background-color: #f00;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+.cardName {
+  font-size: 22px;
+  font-weight: bold;
+}
+.cardIlv {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.cardDruid {
+  /* background-color: #ff7d0a; */
+  background-color: #c4732b;
+}
+.cardRogue {
+  /* background-color: #fff569; */
+  background-color: #bfb967;
+}
+.cardPriest {
+  /* background-color: #fff; */
+  background-color: #aaa;
+}
+.cardMage {
+  /* background-color: #69ccf0; */
+  background-color: #6ba1b5;
+}
+.cardWarlock {
+  /* background-color: #9482c9; */
+  background-color: #796d9c;
+}
+.cardHunter {
+  /* background-color: #abd473; */
+  background-color: #869c67;
+}
+.cardShaman {
+  /* background-color: #0070de; */
+  background-color: #1f5387;
+}
+.cardWarrior {
+  /* background-color: #c79c6e; */
+  background-color: #826a4f;
+}
+.cardPaladin {
+  /* background-color: #f58cba; */
+  background-color: #a16a82;
+}
+.cardDK {
+  /* background-color: #c41f3b; */
+  background-color: #75212f;
+}
+.druidImg {
+  background: no-repeat center / contain url('img/druid.jpg');
+}
+.rogueImg {
+  background: no-repeat center / contain url('img/rogue.jpg');
+}
+.priestImg {
+  background: no-repeat center / contain url('img/priest.jpg');
+}
+.mageImg {
+  background: no-repeat center / contain url('img/mage.jpg');
+}
+.warlockImg {
+  background: no-repeat center / contain url('img/warlock.jpg');
+}
+.hunterImg {
+  background: no-repeat center / contain url('img/hunter.jpg');
+}
+.shamanImg {
+  background: no-repeat center / contain url('img/shaman.jpg');
+}
+.warriorImg {
+  background: no-repeat center / contain url('img/warrior.jpg');
+}
+.paladinImg {
+  background: no-repeat center / contain url('img/paladin.jpg');
+}
+.dkImg {
+  background: no-repeat center / contain url('img/dk.jpg');
+}
+.sectNewChar {
+  z-index: 2;
+  left: 0;
+  top: 140px;
+  position: absolute;
+  width: 100%;
+  /* height: 100%; */
+  min-height: 750px;
+  background-color: #0008;
+}
+.newCharBox {
+  border-radius: 5px;
+  margin: 100px auto;
+  width: 800px;
+  height: 450px;
+  background: #858590;
+  text-align: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+.newCharNicknameBox {
+  justify-content: center;
+}
+.newCharIlvlBox {
+  justify-content: center;
+}
+.newCharText {
+  font-size: 26px;
+  /* font-weight: bold; */
+  width: 150px;
+  text-align: center;
+  color: #fff;
+  cursor: default;
+}
+.newCharHeader {
+  margin: 0 auto;
+}
+.newCharBtnIcone {
+  margin: 3px;
+  background-color: #f00;
+  width: 80px;
+  height: 80px;
+  border-radius: 4px;
+  border: 2px solid #332;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+.newCharClasses {
+  margin: 0 auto 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 150px;
+}
+.charInput {
+  font-size: 26px;
+  background-color: #373740;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 1px solid #000;
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+}
+.newCharIlvlBox {
+  margin-top: 20px;
+}
+.newCharBtnBox {
+  margin: 50px auto;
+  width: 400px;
+  justify-content: space-between;
+}
+.newCharBtn {
+  width: 150px;
+  height: 40px;
+  font-size: 28px;
+  background-color: #000;
+  color: #fff;
+  padding-top: 8px;
+  border-radius: 10px;
+  /* box-shadow: #fff 0 0 10px, #fff inset 0 0 5px; */
+  transition: 0.2s;
+}
+
+
+
+.newCharBtnIcone:hover {
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+.newCharBtn:hover {
+  cursor: pointer;
+  background-color: #112;
+  box-shadow: #fff 0 0 10px, #fff inset 0 0 3px;
+}

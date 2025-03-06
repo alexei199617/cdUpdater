@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CD updater</title>
+</head>
+<body>
+  <header class="header dFlex">
+    <nav class="navbar dFlex">
+      <div class="navBtn" id="navChar">Characters</div>
+      <div class="navBtn" id="navCd">Raids CD</div>
+      <div class="navBtn" id="navSet">Settings</div>
+    </nav>
+    <div class="user">User</div>
+  </header>
+  <section class="content">
+    <section class="sectChar">
+      <div class="char dFlex">
+        <div class="card cardDruid">
+          <div class="cardImg druidImg"></div>
+          <div class="cardName">Друид</div>
+          <div class="cardIlv">390</div>
+        </div>
+        <div class="card cardRogue">
+          <div class="cardImg rogueImg"></div>
+          <div class="cardName">Разбойник</div>
+          <div class="cardIlv">390</div>
+        </div>
+        <div class="card cardPriest">
+          <div class="cardImg priestImg"></div>
+          <div class="cardName">Жрец</div>
+          <div class="cardIlv">390</div>
+        </div>
+        <div class="card cardMage">
+          <div class="cardImg mageImg"></div>
+          <div class="cardName">Маг</div>
+          <div class="cardIlv">390</div>
+        </div>
+        <div class="card cardWarlock">
+          <div class="cardImg warlockImg"></div>
+          <div class="cardName">Чернокнижник</div>
+          <div class="cardIlv">390</div>
+        </div>
+        <div class="card cardHunter">
+          <div class="cardImg hunterImg"></div>
+          <div class="cardName">Охотник</div>
+          <div class="cardIlv">390</div>
+        </div>
+        <div class="card cardShaman">
+          <div class="cardImg shamanImg"></div>
+          <div class="cardName">Шаман</div>
+          <div class="cardIlv">390</div>
+        </div>
+        <div class="card cardWarrior">
+          <div class="cardImg warriorImg"></div>
+          <div class="cardName">Воин</div>
+          <div class="cardIlv">390</div>
+        </div>
+        <div class="card cardPaladin">
+          <div class="cardImg paladinImg"></div>
+          <div class="cardName">Паладин</div>
+          <div class="cardIlv">390</div>
+        </div>
+        <div class="card cardDK">
+          <div class="cardImg dkImg"></div>
+          <div class="cardName">Рыцарь смерти</div>
+          <div class="cardIlv">390</div>
+        </div>
+        <div class="card cardAdd new">
+          <div class="cardAddImg new"></div>
+          <div class="cardAddText new">add new hero</div>
+        </div>
+      </div>
+    </section>
+    <section class="sectNewChar dNone">
+      <div class="newCharBox">
+        <div class="newCharText newCharHeader">Сlass</div>
+        <div class="newCharClasses dFlex">
+          <div class="newCharBtnIcone warriorImg"></div>
+          <div class="newCharBtnIcone paladinImg"></div>
+          <div class="newCharBtnIcone hunterImg"></div>
+          <div class="newCharBtnIcone rogueImg"></div>
+          <div class="newCharBtnIcone priestImg"></div>
+          <div class="newCharBtnIcone dkImg"></div>
+          <div class="newCharBtnIcone shamanImg"></div>
+          <div class="newCharBtnIcone mageImg"></div>
+          <div class="newCharBtnIcone warlockImg"></div>
+          <div class="newCharBtnIcone druidImg"></div>
+        </div>
+        <div class="newCharNicknameBox dFlex">
+          <div class="newCharText">Nickname</div>
+          <input type="text" required minlength="3" maxlength="12" class="charInput">
+          <!-- <div class=""></div> -->
+        </div>
+        <div class="newCharIlvlBox dFlex">
+          <div class="newCharText">Item level</div>
+          <input type="number" min="300" max="416" class="charInput">
+          <!-- <div class=""></div> -->
+        </div>
+        <div class="newCharBtnBox dFlex">
+          <div class="newCharBtn add">Add</div>
+          <div class="newCharBtn close">Close</div>
+        </div>
+      </div>
+    </section>
+    <!-- <div class="raids dNone"></div> -->
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
